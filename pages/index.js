@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Head from 'next/head';
 const data = require('../stub/data-sample.json');
 
 const leftBaxa = {
@@ -25,6 +26,9 @@ const Index = () => {
     let filterData = (searchTerm.length > 2) ? data.report.foods.filter( item => item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) : [];
 
     return(
+        <Head>
+            <title>USDA API example by A Q Khan</title>
+        </Head>
         <div>
             <h1>USDA API</h1>
             <h3>API call fetched and stored in JSON file</h3>

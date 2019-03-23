@@ -26,7 +26,8 @@ const Index = () => {
     let filterData = (searchTerm.length > 2) ? data.report.foods.filter( item => item.name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) : [];
 
     return(
-        <Head>
+        <div>
+            <Head>
             <title>USDA API example by A Q Khan</title>
         </Head>
         <div>
@@ -61,6 +62,7 @@ const Index = () => {
                     }
                 </ul>
             </div>
+        </div>
         </div>
     )
 }

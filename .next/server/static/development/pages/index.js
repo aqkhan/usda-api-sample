@@ -346,10 +346,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next-server/head */ "next-server/head");
+/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
 var _jsxFileName = "/home/aqkhan/Documents/test/usda-api-react/pages/index.js";
+
 
 
 var data = __webpack_require__(/*! ../stub/data-sample.json */ "./stub/data-sample.json");
@@ -368,20 +371,20 @@ var displayNutrients = function displayNutrients(nutrients) {
     return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("ul", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 17
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("b", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 18
       },
       __self: this
     }, nutrient.nutrient), ": ", nutrient.value, " ", nutrient.unit, " / ", nutrient.gm, " gm"));
@@ -405,32 +408,50 @@ var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, "USDA API"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "API call fetched and stored in JSON file"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
+    },
+    __self: this
+  }, "USDA API example by A Q Khan")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "USDA API"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "API call fetched and stored in JSON file"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }, "Search apple for example"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: leftBaxa,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("input", {
@@ -440,19 +461,19 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 39
     },
     __self: this
   }, "You searched for: ", searchTerm), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: this
   }, filterData.map(function (item, index) {
@@ -464,7 +485,7 @@ var Index = function Index() {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 43
       },
       __self: this
     }, item.name);
@@ -472,13 +493,13 @@ var Index = function Index() {
     style: rightBaxa,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 52
     },
     __self: this
   }, "You've added the following: "), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
@@ -487,44 +508,44 @@ var Index = function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 53
     },
     __self: this
   }, "Clear choices"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 54
     },
     __self: this
   }, selectedFood.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 57
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 58
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 58
       },
       __self: this
     }, item.name)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("li", {
       key: index + _babel_runtime_corejs2_core_js_date_now__WEBPACK_IMPORTED_MODULE_0___default()().toString(),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 59
       },
       __self: this
     }, displayNutrients(item.nutrients)));
-  }))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -606,6 +627,17 @@ module.exports = require("core-js/library/fn/get-iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/is-iterable");
+
+/***/ }),
+
+/***/ "next-server/head":
+/*!***********************************!*\
+  !*** external "next-server/head" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-server/head");
 
 /***/ }),
 
